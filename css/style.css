@@ -66,6 +66,8 @@ ol {
 
 header {
   padding-top: 58px;
+  position: absolute;
+  transform: translateX(-50%);
 }
 
 .explore-h1 {
@@ -80,7 +82,8 @@ header {
   line-height: 63px;
   /* or 108% */
   text-transform: uppercase;
-  color: black;
+  color: #ffffff;
+  text-align: center;
 }
 
 .explore-button {
@@ -145,4 +148,61 @@ header {
   line-height: 24px;
   letter-spacing: 0.5px;
   text-align: left;
+}
+
+.exploreindonesia {
+  background-image: url("./../../assets/img/backexpendon.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.explore-img {
+  margin-left: 30px;
+  margin-right: 31px;
+}
+
+.secrets {
+  background-image: url("../../assets/img/secretsbackimg.webp");
+  padding-top: 35px;
+  padding-bottom: 696px;
+}
+
+.secrets-h2 {
+  width: 314px;
+  height: 112px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: rgb(1, 10, 32);
+  font-family: DM Sans;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 46px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.secrets-svg {
+  /* Union */
+  width: 12px;
+  height: 19.55px;
+  fill: rgb(2, 11, 32);
+}
+
+.secrets-ul {
+  display: flex;
+  align-items: center;
+}
+
+.left {
+  margin-right: 11px;
+}
+
+.right {
+  margin-left: 11px;
+}
+
+.secret-img2 {
+  display: block;
+  margin: 0 auto;
 }
