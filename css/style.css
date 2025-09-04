@@ -206,3 +206,66 @@ header {
   display: block;
   margin: 0 auto;
 }
+
+.life {
+  background-image: url("../../assets/img/lifebackimg.webp");
+  padding-top: 83px;
+  padding-bottom: 42px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.life-h2 {
+  color: rgb(255, 255, 255);
+  font-family: DM Sans;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 46px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.life-img {
+  border-radius: 10px;
+  margin-bottom: 50px;
+  display: block;
+  /* image 2 */
+  width: 314px;
+  height: 192px;
+}
+
+.life-img2 {
+  /* image 3 */
+  width: 314px;
+  height: 176px;
+  border-radius: 5px;
+  display: block;
+  margin-bottom: 40px;
+}
+
+.life-h3 {
+  color: rgb(255, 255, 255);
+  font-family: DM Sans;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 29px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 19px;
+}
+
+.life-p {
+  opacity: 0.7;
+  color: rgb(255, 255, 255);
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  text-align: center;
+}
+
+.life-li:not(:last-child) {
+  margin-bottom: 40px;
+}
