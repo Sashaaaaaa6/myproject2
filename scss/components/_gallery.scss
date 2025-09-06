@@ -1,0 +1,33 @@
+.gallery {
+  background: rgba(255, 255, 255, 1);
+  padding-top: 32px;
+  padding-bottom: 40px;
+}
+.gallery-h2 {
+  /* Photo Gallery */
+  width: 314px;
+  height: 52px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: rgba(1, 10, 32, 1);
+
+  font-family: DM Sans;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 46px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.gallery-p {
+  /* Paragraph */
+  width: 314px;
+  height: 160px;
+  color: rgba(111, 119, 135, 1);
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  text-align: center;
+}

@@ -1,0 +1,55 @@
+.nature {
+  background: rgba(2, 12, 33, 1);
+  opacity: 0.9;
+  padding-top: 40px;
+  padding-bottom: 44px;
+}
+.nature-img {
+  /* Rectangle 9 */
+  width: 314px;
+  height: 232px;
+  border-radius: 10px;
+}
+.nature-h2 {
+  /* The walkways of Indonesia spellbind */
+  width: 314px;
+  height: 162.89px;
+  color: rgba(255, 255, 255, 1);
+
+  font-family: DM Sans;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 46px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.nature-p {
+  /* Paragraph */
+  width: 315px;
+  height: 115.92px;
+  color: rgba(224, 224, 224, 1);
+
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  text-align: left;
+}
+.nature-button {
+  /* CTA */
+  width: 314px;
+  height: 72px;
+  /* Автолейаут */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: undefined;
+  padding: 16px 24px 16px 24px;
+  border-radius: 32px;
+  background: rgba(221, 34, 66, 1);
+}
+.nature-li:not(:last-child) {
+  margin-bottom: 56px;
+}

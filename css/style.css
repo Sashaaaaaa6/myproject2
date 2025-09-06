@@ -153,7 +153,7 @@ header {
 .exploreindonesia {
   background-image: url("./../../assets/img/backexpendon.webp");
   background-repeat: no-repeat;
-  background-position: center;
+  background-size: cover;
 }
 
 .explore-img {
@@ -161,10 +161,71 @@ header {
   margin-right: 31px;
 }
 
+.nature {
+  background: rgb(2, 12, 33);
+  opacity: 0.9;
+  padding-top: 40px;
+  padding-bottom: 44px;
+}
+
+.nature-img {
+  /* Rectangle 9 */
+  width: 314px;
+  height: 232px;
+  border-radius: 10px;
+}
+
+.nature-h2 {
+  /* The walkways of Indonesia spellbind */
+  width: 314px;
+  height: 162.89px;
+  color: rgb(255, 255, 255);
+  font-family: DM Sans;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 46px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.nature-p {
+  /* Paragraph */
+  width: 315px;
+  height: 115.92px;
+  color: rgb(224, 224, 224);
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  text-align: left;
+}
+
+.nature-button {
+  /* CTA */
+  width: 314px;
+  height: 72px;
+  /* Автолейаут */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: undefined;
+  padding: 16px 24px 16px 24px;
+  border-radius: 32px;
+  background: rgb(221, 34, 66);
+}
+
+.nature-li:not(:last-child) {
+  margin-bottom: 56px;
+}
+
 .secrets {
   background-image: url("../../assets/img/secretsbackimg.webp");
   padding-top: 35px;
   padding-bottom: 696px;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .secrets-h2 {
@@ -268,4 +329,182 @@ header {
 
 .life-li:not(:last-child) {
   margin-bottom: 40px;
+}
+
+.hills {
+  padding-top: 171px;
+  padding-bottom: 116px;
+}
+
+.hills-h2 {
+  /* Our hills and valleys are like nothing you’ve seen. */
+  width: 314px;
+  height: 184px;
+  color: rgb(0, 0, 0);
+  font-family: DM Sans;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 46px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.hills-p {
+  /* Paragraph */
+  width: 314px;
+  height: 120px;
+  color: rgb(111, 119, 135);
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  text-align: center;
+}
+
+.hills-button {
+  /* CTA */
+  width: 314px;
+  height: 73px;
+  /* Автолейаут */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: undefined;
+  padding: 16px 24px 16px 24px;
+  border-radius: 122px;
+  background: rgb(221, 34, 66);
+}
+
+.hills-li:not(:last-child) {
+  margin-bottom: 38px;
+}
+
+.facts {
+  background: rgb(2, 12, 33);
+  opacity: 0.9;
+  padding-bottom: 61px;
+  padding-top: 72px;
+}
+
+.facts-h2 {
+  /* By The Numbers */
+  width: 314px;
+  height: 52px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: rgb(255, 255, 255);
+  font-family: DM Sans;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 46px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.facts-p {
+  /* Paragraph */
+  width: 314px;
+  height: 167px;
+  color: rgb(224, 224, 224);
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  text-align: center;
+}
+
+.factul-h2 {
+  color: rgb(221, 34, 66);
+  font-family: DM Sans;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 46px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.factul-p {
+  color: rgb(224, 224, 224);
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  /* Paragraph */
+  width: 314px;
+  height: 70.23px;
+}
+
+.factul-li:not(:last-child) {
+  margin-bottom: 81px;
+}
+
+.gallery {
+  background: rgb(255, 255, 255);
+  padding-top: 32px;
+  padding-bottom: 40px;
+}
+
+.gallery-h2 {
+  /* Photo Gallery */
+  width: 314px;
+  height: 52px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: rgb(1, 10, 32);
+  font-family: DM Sans;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 46px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.gallery-p {
+  /* Paragraph */
+  width: 314px;
+  height: 160px;
+  color: rgb(111, 119, 135);
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  text-align: center;
+}
+
+.getting {
+  background: rgb(220, 232, 242);
+  padding-top: 29px;
+  padding-bottom: 73px;
+}
+
+.getting-h2 {
+  /* Easy steps */
+  width: 260px;
+  height: 46px;
+  color: rgb(1, 10, 32);
+  font-family: DM Sans;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 46px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.circle {
+  /* Number */
+  width: 56px;
+  height: 56px;
+  border-radius: 90px;
+  background-color: red;
+  font-style: "DM sans";
+  font-size: 30px;
+  color: #ffffff;
 }

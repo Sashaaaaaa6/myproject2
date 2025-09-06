@@ -1,0 +1,47 @@
+.hills {
+  padding-top: 171px;
+  padding-bottom: 116px;
+}
+.hills-h2 {
+  /* Our hills and valleys are like nothing you’ve seen. */
+  width: 314px;
+  height: 184px;
+  color: rgba(0, 0, 0, 1);
+
+  font-family: DM Sans;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 46px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.hills-p {
+  /* Paragraph */
+  width: 314px;
+  height: 120px;
+  color: rgba(111, 119, 135, 1);
+
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  text-align: center;
+}
+.hills-button {
+  /* CTA */
+  width: 314px;
+  height: 73px;
+  /* Автолейаут */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: undefined;
+  padding: 16px 24px 16px 24px;
+  border-radius: 122px;
+  background: rgba(221, 34, 66, 1);
+}
+.hills-li:not(:last-child) {
+  margin-bottom: 38px;
+}
