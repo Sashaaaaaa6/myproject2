@@ -14,7 +14,7 @@
   font-weight: 700;
   line-height: 46px;
   letter-spacing: 0%;
-  text-align: center;
+  margin: 0 auto;
 }
 .circle {
   /* Number */
@@ -25,4 +25,11 @@
   font-style: "DM sans";
   font-size: 30px;
   color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.getting-li {
+  text-align: center;
 }
