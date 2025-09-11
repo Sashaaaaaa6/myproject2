@@ -15,15 +15,21 @@ ol {
   margin: 0 auto;
   padding: 0 15px;
 }
+@media (min-width: 1200px) {
+  .container {
+    width: 1200px;
+  }
+}
 
 .header-list-icons {
   display: flex;
+  justify-content: flex-end;
 }
 
 .header-list-button {
   border: 0;
   outline: none;
-  background-color: #ffffff;
+  background-color: transparent;
 }
 
 .list-icon-frame {
@@ -34,6 +40,9 @@ ol {
 .header-logo {
   display: flex;
   align-items: center;
+  text-decoration: none;
+  justify-content: space-between;
+  margin-right: 64px;
 }
 
 .list-icon-menu {
@@ -52,6 +61,7 @@ ol {
   text-transform: uppercase;
   width: 111px;
   margin: 0;
+  color: #ffffff;
 }
 
 .header-logo-svg {
@@ -62,12 +72,59 @@ ol {
 .flex {
   display: flex;
   align-items: center;
+  justify-content: space-between;
+}
+@media (min-width: 1200px) {
+  .flex {
+    justify-content: flex-start;
+  }
 }
 
 header {
   padding-top: 58px;
   position: absolute;
+  left: 50%;
   transform: translateX(-50%);
+}
+@media (min-width: 1200px) {
+  header {
+    transform: translateX(0);
+    left: 47px;
+  }
+}
+
+.header-list-li:not(:last-child) {
+  margin-right: 29px;
+}
+
+.header-nav {
+  display: none;
+}
+@media (min-width: 1200px) {
+  .header-nav {
+    display: block;
+  }
+}
+
+.headnav-ul {
+  display: flex;
+  align-items: center;
+}
+
+.headnav-li:not(:last-child) {
+  margin-right: 62px;
+}
+
+.headnav-a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-family: DM Sans;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: uppercase;
 }
 
 .explore-h1 {
@@ -84,6 +141,7 @@ header {
   text-transform: uppercase;
   color: #ffffff;
   text-align: center;
+  margin-top: 0;
 }
 
 .explore-button {
@@ -154,6 +212,8 @@ header {
   background-image: url("./../../assets/img/backexpendon.webp");
   background-repeat: no-repeat;
   background-size: cover;
+  padding-top: 153px;
+  padding-bottom: 40px;
 }
 
 .explore-img {
