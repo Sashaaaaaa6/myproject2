@@ -3,12 +3,22 @@
   opacity: 0.9;
   padding-top: 40px;
   padding-bottom: 44px;
+  @media screen and (min-width: 1200px) {
+    padding-top: 207px;
+    padding-bottom: 241px;
+  }
 }
 .nature-img {
   /* Rectangle 9 */
   width: 314px;
   height: 232px;
   border-radius: 10px;
+  @media (min-width: 1200px) {
+    /* Rectangle 9 */
+    width: 630.34px;
+    height: 460px;
+    border-radius: 10px;
+  }
 }
 .nature-h2 {
   /* The walkways of Indonesia spellbind */
@@ -22,6 +32,19 @@
   line-height: 46px;
   letter-spacing: 0%;
   text-align: left;
+  @media (min-width: 1200px) {
+    /* The walkways of Indonesia spellbind */
+    width: 479.5px;
+    height: 119.95px;
+    color: rgba(255, 255, 255, 1);
+
+    font-family: DM Sans;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0px;
+    text-align: left;
+  }
 }
 .nature-p {
   /* Paragraph */
@@ -52,4 +75,29 @@
 }
 .nature-li:not(:last-child) {
   margin-bottom: 56px;
+  @media (min-width: 1200px) {
+    margin-bottom: 192px;
+  }
+}
+.nature-li {
+  @media (min-width: 1200px) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+.articles-li-last {
+  @media (min-width: 1200px) {
+    flex-direction: row-reverse;
+  }
+}
+.articles-div {
+  @media (min-width: 1200px) {
+    margin-left: 130px;
+  }
+}
+.articles-div-last {
+  @media (min-width: 1200px) {
+    margin-right: 130px;
+  }
 }

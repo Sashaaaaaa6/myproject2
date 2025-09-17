@@ -318,12 +318,26 @@ header {
   padding-top: 40px;
   padding-bottom: 44px;
 }
+@media screen and (min-width: 1200px) {
+  .nature {
+    padding-top: 207px;
+    padding-bottom: 241px;
+  }
+}
 
 .nature-img {
   /* Rectangle 9 */
   width: 314px;
   height: 232px;
   border-radius: 10px;
+}
+@media (min-width: 1200px) {
+  .nature-img {
+    /* Rectangle 9 */
+    width: 630.34px;
+    height: 460px;
+    border-radius: 10px;
+  }
 }
 
 .nature-h2 {
@@ -337,6 +351,20 @@ header {
   line-height: 46px;
   letter-spacing: 0%;
   text-align: left;
+}
+@media (min-width: 1200px) {
+  .nature-h2 {
+    /* The walkways of Indonesia spellbind */
+    width: 479.5px;
+    height: 119.95px;
+    color: rgb(255, 255, 255);
+    font-family: DM Sans;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0px;
+    text-align: left;
+  }
 }
 
 .nature-p {
@@ -369,6 +397,37 @@ header {
 
 .nature-li:not(:last-child) {
   margin-bottom: 56px;
+}
+@media (min-width: 1200px) {
+  .nature-li:not(:last-child) {
+    margin-bottom: 192px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .nature-li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 1200px) {
+  .articles-li-last {
+    flex-direction: row-reverse;
+  }
+}
+
+@media (min-width: 1200px) {
+  .articles-div {
+    margin-left: 130px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .articles-div-last {
+    margin-right: 130px;
+  }
 }
 
 .secrets {
@@ -554,6 +613,26 @@ header {
   letter-spacing: 0%;
   text-align: center;
 }
+@media (min-width: 1200px) {
+  .facts-h2 {
+    /* By The Numbers */
+    width: 615.36px;
+    height: 52.17px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-family: DM Sans;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 78px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 100px;
+    display: block;
+    margin: 0 auto;
+  }
+}
 
 .facts-p {
   /* Paragraph */
@@ -566,6 +645,23 @@ header {
   line-height: 24px;
   letter-spacing: 0.5px;
   text-align: center;
+}
+@media (min-width: 1200px) {
+  .facts-p {
+    /* Paragraph */
+    width: 484px;
+    height: 102px;
+    color: rgb(224, 224, 224);
+    font-family: DM Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    margin-bottom: 39px;
+    display: block;
+    margin: 0 auto;
+  }
 }
 
 .factul-h2 {
@@ -593,6 +689,17 @@ header {
 
 .factul-li:not(:last-child) {
   margin-bottom: 81px;
+}
+@media (min-width: 1200px) {
+  .factul-li:not(:last-child) {
+    margin-right: 127px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .factul {
+    display: flex;
+  }
 }
 
 .gallery {
