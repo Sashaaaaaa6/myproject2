@@ -58,6 +58,7 @@
 header {
   padding-top: 58px;
   position: absolute;
+  z-index: 2;
   left: 50%;
   transform: translateX(-50%);
   @media (min-width: 1200px) {

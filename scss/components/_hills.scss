@@ -45,3 +45,10 @@
 .hills-li:not(:last-child) {
   margin-bottom: 38px;
 }
+.hills-ul {
+  @media (min-width: 1200px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
