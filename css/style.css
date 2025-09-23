@@ -511,6 +511,20 @@ header {
   text-align: center;
   margin-bottom: 70px;
 }
+@media (min-width: 1200px) {
+  .life-h2 {
+    /* We’ve created the pr */
+    width: 1056px;
+    height: 142.64px;
+    color: rgb(255, 255, 255);
+    font-family: DM Sans;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0px;
+    text-align: center;
+  }
+}
 
 .life-img {
   border-radius: 10px;
@@ -520,6 +534,16 @@ header {
   width: 314px;
   height: 192px;
 }
+@media (min-width: 1200px) {
+  .life-img {
+    /* image 2 */
+    width: 1056px;
+    height: 594px;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-bottom: 125px;
+  }
+}
 
 .life-img2 {
   /* image 3 */
@@ -528,6 +552,15 @@ header {
   border-radius: 5px;
   display: block;
   margin-bottom: 40px;
+}
+@media (min-width: 1200px) {
+  .life-img2 {
+    /* image 2 */
+    /* image 3 */
+    width: 233px;
+    height: 151px;
+    border-radius: 5px;
+  }
 }
 
 .life-h3 {
@@ -540,6 +573,20 @@ header {
   text-align: center;
   margin-bottom: 19px;
 }
+@media (min-width: 1200px) {
+  .life-h3 {
+    /* Fell our design */
+    width: 233.14px;
+    height: 35.66px;
+    color: rgb(255, 255, 255);
+    font-family: DM Sans;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+}
 
 .life-p {
   opacity: 0.7;
@@ -551,9 +598,27 @@ header {
   letter-spacing: 0.5px;
   text-align: center;
 }
+@media (min-width: 1200px) {
+  .life-p {
+    opacity: 0.7;
+    color: rgb(255, 255, 255);
+    font-family: DM Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.5px;
+    text-align: left;
+  }
+}
 
 .life-li:not(:last-child) {
   margin-bottom: 40px;
+}
+
+@media (min-width: 1200px) {
+  .life-ul {
+    display: flex;
+  }
 }
 
 .hills {
